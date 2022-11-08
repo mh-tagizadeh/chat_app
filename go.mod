@@ -1,4 +1,4 @@
-module github.com/mh-tagizadeh/chat_app
+module github.com/mh-tagizadeh/chat_app/main
 
 go 1.18
 

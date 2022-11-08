@@ -1,4 +1,4 @@
-package chat_app
+package main
 
 
 import (
