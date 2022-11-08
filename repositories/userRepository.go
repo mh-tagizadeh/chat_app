@@ -7,7 +7,6 @@ import (
 
 
 type IUserRepository interface {
-	Migrateable
 }
 
 
@@ -19,7 +18,7 @@ type UserRepository struct {
 // Migrate generate tables from the databases 
 // @return error 
 func (repository *UserRepository) Migrate() (err error) {
-	err := repository.Database.AutoMigrate(models.User{})
+	err = repository.Database.AutoMigrate(models.User{})
 	return 
 }
 
