@@ -7,6 +7,7 @@ import (
 
 
 type IUserRepository interface {
+	Migratable
 }
 
 
