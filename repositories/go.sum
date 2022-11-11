@@ -8,5 +8,7 @@ github.com/mh-tagizadeh/chat_app/models v0.0.0-20221108210547-9b7e99783ed2 h1:6G
 github.com/mh-tagizadeh/chat_app/models v0.0.0-20221108210547-9b7e99783ed2/go.mod h1:Ii4qVya0aAhIrhhNAkoKRLoOUgpyww8IVuXSeU5jcFE=
 github.com/mh-tagizadeh/chat_app/models v0.0.0-20221108212157-34efce529a8e h1:xvT3WKshOtRfD24zRZPqLFox37EtmeYLHwiY6u/xSMI=
 github.com/mh-tagizadeh/chat_app/models v0.0.0-20221108212157-34efce529a8e/go.mod h1:Ii4qVya0aAhIrhhNAkoKRLoOUgpyww8IVuXSeU5jcFE=
+github.com/mh-tagizadeh/chat_app/models v0.0.0-20221110081221-47e077443e97 h1:gl1/mF0NhqGiEbYC9os1wazyZ+X60zgK/EYnkVzsYfA=
+github.com/mh-tagizadeh/chat_app/models v0.0.0-20221110081221-47e077443e97/go.mod h1:Ii4qVya0aAhIrhhNAkoKRLoOUgpyww8IVuXSeU5jcFE=
 gorm.io/gorm v1.24.1 h1:CgvzRniUdG67hBAzsxDGOAuq4Te1osVMYsa1eQbd4fs=
 gorm.io/gorm v1.24.1/go.mod h1:DVrVomtaYTbqs7gB/x2uVvqnXzv0nqjB396B8cG4dBA=
