@@ -2,9 +2,10 @@ package main
 
 
 import (
-	"errors"
-
 	"gorm.io/gorm"
+    "gorm.io/driver/postgres"
+
+
 	"github.com/mh-tagizadeh/chat_app/repositories"
 )
 
@@ -16,14 +17,27 @@ type Options struct {
 
 // New initializer for chat_app
 // If migration is true, it generate all tables in the database if they don't exist.
-func (opts Options) New() {
+func InitializeDatabase(opts Options) (err error) {
 	userRepository := &repositories.UserRepository{Database: opts.DB}
 
 
 	if opts.Migrate {
 		err = repositories.Migrates(userRepository)
 		if err != nil {
-			return nil, err
+			return err
 		}
 	}
+
+	return 
+}
+
+
+func main(){
+	dsn := "host=localhost user=admin password=laravel dbname=chat_app_db port=5432 sslmode=disable TimeZone=Asia/Shanghai"
+	db, _ := gorm.Open(postgres.Open(dsn), &gorm.Config{})// hello
+
+	InitializeDatabase(Options{
+		Migrate: true,
+		DB: db,
+	})
 }
