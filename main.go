@@ -16,7 +16,7 @@ func main(){
 	database.Connect(os.Getenv("DATABASE_CONNECTION"))
 
 	// Migrate tables 
-	database.Migrates(Options{
+	database.Migrates(database.Options{
 		Migrate: true,
 		DB: database.Connection,
 	})

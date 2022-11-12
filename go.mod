@@ -4,8 +4,8 @@ go 1.18
 
 require (
 	github.com/gin-gonic/gin v1.8.1
-	github.com/mh-tagizadeh/chat_app/database v0.0.0-20221112142155-2dbe4943bdd0
-	github.com/mh-tagizadeh/chat_app/repositories v0.0.0-20221111135518-97378a994df9
+	github.com/mh-tagizadeh/chat_app/database v0.0.0-20221112151018-a06a12e23d63
+	github.com/mh-tagizadeh/chat_app/repositories v0.0.0-20221112142155-2dbe4943bdd0
 	gorm.io/driver/postgres v1.4.5
 	gorm.io/gorm v1.24.1
 )
@@ -29,7 +29,7 @@ require (
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/leodido/go-urn v1.2.1 // indirect
 	github.com/mattn/go-isatty v0.0.16 // indirect
-	github.com/mh-tagizadeh/chat_app/models v0.0.0-20221111135518-97378a994df9 // indirect
+	github.com/mh-tagizadeh/chat_app/models v0.0.0-20221112142155-2dbe4943bdd0 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/pelletier/go-toml/v2 v2.0.5 // indirect
