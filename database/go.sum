@@ -80,6 +80,10 @@ github.com/mattn/go-colorable v0.1.6/go.mod h1:u6P/XSegPjTcexA+o6vUJrdnUu04hMope
 github.com/mattn/go-isatty v0.0.5/go.mod h1:Iq45c/XA43vh69/j3iqttzPXn0bhXyGjM0Hdxcsrc5s=
 github.com/mattn/go-isatty v0.0.7/go.mod h1:Iq45c/XA43vh69/j3iqttzPXn0bhXyGjM0Hdxcsrc5s=
 github.com/mattn/go-isatty v0.0.12/go.mod h1:cbi8OIDigv2wuxKPP5vlRcQ1OAZbq2CE4Kysco4FUpU=
+github.com/mh-tagizadeh/chat_app/models v0.0.0-20221112142155-2dbe4943bdd0 h1:ocyFc0ix1h4SAp0jHJHPnW/eNmyru1uBmY4oKSpV3z4=
+github.com/mh-tagizadeh/chat_app/models v0.0.0-20221112142155-2dbe4943bdd0/go.mod h1:Ii4qVya0aAhIrhhNAkoKRLoOUgpyww8IVuXSeU5jcFE=
+github.com/mh-tagizadeh/chat_app/repositories v0.0.0-20221112142155-2dbe4943bdd0 h1:NB3TH/z86bkDjLxFZ1XkQO6OHejwJY7d1xX5q8hsmZo=
+github.com/mh-tagizadeh/chat_app/repositories v0.0.0-20221112142155-2dbe4943bdd0/go.mod h1:wl4uRz3XynUYvPQKg4i3oe9iJ3/A6HeOQ0ywR406Nco=
 github.com/pkg/errors v0.8.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/rogpeppe/go-internal v1.3.0/go.mod h1:M8bDsm7K2OlrFYOpmOWEs/qY81heoFRclV5y23lUDJ4=
