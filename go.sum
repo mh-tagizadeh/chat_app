@@ -111,6 +111,8 @@ github.com/mh-tagizadeh/chat_app/database v0.0.0-20221112142155-2dbe4943bdd0 h1:
 github.com/mh-tagizadeh/chat_app/database v0.0.0-20221112142155-2dbe4943bdd0/go.mod h1:shqabwWir7Xu4Jw3W/arjbghVTtKonshaPHeFiPLvN0=
 github.com/mh-tagizadeh/chat_app/database v0.0.0-20221112151018-a06a12e23d63 h1:H4+PzSe5Euiwa4FQPbjrdz/g5gQm11XVvVAm2fIMrAM=
 github.com/mh-tagizadeh/chat_app/database v0.0.0-20221112151018-a06a12e23d63/go.mod h1:UJAxS2p1595QhJoTPAINJvdk+cQtXzGvTZB5ihUcx+M=
+github.com/mh-tagizadeh/chat_app/database v0.0.0-20221112151814-6967ca20a8b0 h1:zwdi1EuXM5rH66ZRIKtg8Yo4KQeLcQx4mD4PAtY2JBc=
+github.com/mh-tagizadeh/chat_app/database v0.0.0-20221112151814-6967ca20a8b0/go.mod h1:UJAxS2p1595QhJoTPAINJvdk+cQtXzGvTZB5ihUcx+M=
 github.com/mh-tagizadeh/chat_app/models v0.0.0-20221108210448-be41698ba933 h1:QGFd9bo0UcDaWHQwvwbOdDlG3JRM3vX5vm4z4bdYjps=
 github.com/mh-tagizadeh/chat_app/models v0.0.0-20221108210448-be41698ba933/go.mod h1:Ii4qVya0aAhIrhhNAkoKRLoOUgpyww8IVuXSeU5jcFE=
 github.com/mh-tagizadeh/chat_app/models v0.0.0-20221108212157-34efce529a8e h1:xvT3WKshOtRfD24zRZPqLFox37EtmeYLHwiY6u/xSMI=
@@ -121,6 +123,8 @@ github.com/mh-tagizadeh/chat_app/models v0.0.0-20221111135518-97378a994df9 h1:25
 github.com/mh-tagizadeh/chat_app/models v0.0.0-20221111135518-97378a994df9/go.mod h1:Ii4qVya0aAhIrhhNAkoKRLoOUgpyww8IVuXSeU5jcFE=
 github.com/mh-tagizadeh/chat_app/models v0.0.0-20221112142155-2dbe4943bdd0 h1:ocyFc0ix1h4SAp0jHJHPnW/eNmyru1uBmY4oKSpV3z4=
 github.com/mh-tagizadeh/chat_app/models v0.0.0-20221112142155-2dbe4943bdd0/go.mod h1:Ii4qVya0aAhIrhhNAkoKRLoOUgpyww8IVuXSeU5jcFE=
+github.com/mh-tagizadeh/chat_app/models v0.0.0-20221112151814-6967ca20a8b0 h1:cHJmJp3duQ+G4gDemDJ7UsGRdSuMwu8ATk30v67mSaI=
+github.com/mh-tagizadeh/chat_app/models v0.0.0-20221112151814-6967ca20a8b0/go.mod h1:Ii4qVya0aAhIrhhNAkoKRLoOUgpyww8IVuXSeU5jcFE=
 github.com/mh-tagizadeh/chat_app/repositories v0.0.0-20221108210547-9b7e99783ed2 h1:bGq8BAVqeQhzsf5GuPZxNTLnaQ4amRPGes+AZvSvxrs=
 github.com/mh-tagizadeh/chat_app/repositories v0.0.0-20221108210547-9b7e99783ed2/go.mod h1:EoJ0d5SrkkYK/ejtxk3ic3CWjduWKjAat9kcWDc1W04=
 github.com/mh-tagizadeh/chat_app/repositories v0.0.0-20221108212157-34efce529a8e h1:pnt/e+8Uz12y0p2EXDkaoGA54t30iyR7qMASHwmGNL8=
@@ -131,6 +135,8 @@ github.com/mh-tagizadeh/chat_app/repositories v0.0.0-20221111135518-97378a994df9
 github.com/mh-tagizadeh/chat_app/repositories v0.0.0-20221111135518-97378a994df9/go.mod h1:wl4uRz3XynUYvPQKg4i3oe9iJ3/A6HeOQ0ywR406Nco=
 github.com/mh-tagizadeh/chat_app/repositories v0.0.0-20221112142155-2dbe4943bdd0 h1:NB3TH/z86bkDjLxFZ1XkQO6OHejwJY7d1xX5q8hsmZo=
 github.com/mh-tagizadeh/chat_app/repositories v0.0.0-20221112142155-2dbe4943bdd0/go.mod h1:wl4uRz3XynUYvPQKg4i3oe9iJ3/A6HeOQ0ywR406Nco=
+github.com/mh-tagizadeh/chat_app/repositories v0.0.0-20221112151814-6967ca20a8b0 h1:tkiGOIqOHmH82m9RZyDt1T9lTCakoEL1UQa3HQn5lPg=
+github.com/mh-tagizadeh/chat_app/repositories v0.0.0-20221112151814-6967ca20a8b0/go.mod h1:wl4uRz3XynUYvPQKg4i3oe9iJ3/A6HeOQ0ywR406Nco=
 github.com/modern-go/concurrent v0.0.0-20180228061459-e0a39a4cb421/go.mod h1:6dJC0mAP4ikYIbvyc7fijjWJddQyLn8Ig3JB5CqoB9Q=
 github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd h1:TRLaZ9cD/w8PVh93nsPXa1VrQ6jlwL5oN8l14QlcNfg=
 github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd/go.mod h1:6dJC0mAP4ikYIbvyc7fijjWJddQyLn8Ig3JB5CqoB9Q=
