@@ -3,6 +3,8 @@ package repositories
 import (
 	"gorm.io/gorm"
 	"github.com/mh-tagizadeh/chat_app/models"
+	"github.com/mh-tagizadeh/chat_app/collections"
+	"github.com/mh-tagizadeh/chat_app/repositories/scopes"
 )
 
 
@@ -41,5 +43,27 @@ type UserRepository struct {
 func (repository *UserRepository) Migrate() (err error) {
 	err = repository.Database.AutoMigrate(models.User{})
 	return 
+}
+
+
+// SINGLE FETCH OPTIONS 
+
+// GetUserByID get user by id 
+// @param uint 
+// @return models.User, error
+func (repository *UserRepository) GetUserByID(ID uint) (user models.User, err error) {
+	err = repository.Database.First(&user, "users.id = ?", ID).Error
+	return 
+}
+
+
+// MULTIPLE FETCH OPTIONS
+
+// GetRoles get roles by ids.
+// @param []uint
+// @return collections.Role, error
+func (repository *UserRepository) GetUsers(IDs []uint) (users collections.User, err error) {
+	err = repository.Database.Where("users.id IN (?)", IDs).Find(&users).Error
+	return
 }
 
