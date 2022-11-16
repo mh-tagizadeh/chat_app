@@ -4,9 +4,13 @@ package main
 import (
     "github.com/gin-gonic/gin"
 
-	"github.com/mh-tagizadeh/chat_app/database"
+	"chat_app/database"
+	"chat_app/routes"
 	"os"
 )
+
+
+var router = gin.Default()
 
 func main(){
 
@@ -21,7 +25,15 @@ func main(){
 		DB: database.Connection,
 	})
 
-    router := gin.Default()
+	getRoutes()
 
 	router.Run("localhost:8080")
 }
+
+
+func getRoutes() {
+	v1 := router.Group("/v1")
+
+	routes.AddAuthGroup(v1)
+}
+
