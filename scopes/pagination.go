@@ -3,8 +3,8 @@ package scopes
 import (
 	"gorm.io/gorm"
 
-	"github.com/mh-tagizadeh/chat_app/helpers"
-	"github.com/mh-tagizadeh/chat_app/utils"
+	"chat_app/helpers"
+	"chat_app/utils"
 )
 
 // GormPager adds pagination capability to your gorm queries.

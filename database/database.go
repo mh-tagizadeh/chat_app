@@ -4,7 +4,7 @@ import (
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 
-	"github.com/mh-tagizadeh/chat_app/repositories"
+	"chat_app/repositories"
 )
 
 var (

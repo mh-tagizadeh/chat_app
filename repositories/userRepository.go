@@ -2,9 +2,9 @@ package repositories
 
 import (
 	"gorm.io/gorm"
-	"github.com/mh-tagizadeh/chat_app/models"
-	"github.com/mh-tagizadeh/chat_app/collections"
-	"github.com/mh-tagizadeh/chat_app/repositories/scopes"
+	"chat_app/models"
+	"chat_app/collections"
+	"chat_app/scopes"
 )
 
 

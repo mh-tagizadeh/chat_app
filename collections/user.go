@@ -1,7 +1,7 @@
 package collections
 
 import (
-	"github.com/mh-tagizadeh/chat_app/models"
+	"chat_app/models"
 )
 
 // User provides methods for you to manage array data more easily.
