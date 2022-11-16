@@ -4,7 +4,7 @@ import (
     "github.com/gin-gonic/gin"
 )
 
-func addAuthGroup(router *gin.RouterGroup) {
+func AddAuthGroup(router *gin.RouterGroup) {
 	auth := router.Group("auth")
 
 	auth.POST("singin")
